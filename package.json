@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "pretest": "npx ts-node src/helper/report/init.ts",
-    "test": "cross-env ENV=prod FORCE_COLOR=0 cucumber-js test ",
+    "test": "cross-env ENV=prod FORCE_COLOR=0 cucumber-js test",
     "posttest": "npx ts-node src/helper/report/report.ts"
   },
   "keywords": [],

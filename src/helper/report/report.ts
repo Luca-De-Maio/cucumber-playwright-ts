@@ -4,7 +4,7 @@ report.generate({
     jsonDir: "test-results",
     reportPath: "test-results/reports/",
     reportName: "Playwright Automation Report",
-    pageTitle: "BookCart App test report",
+    pageTitle: "Fintech Playwright Automation Report",
     displayDuration: false,
     metadata: {
         browser: {
@@ -20,7 +20,7 @@ report.generate({
     customData: {
         title: "Test Info",
         data: [
-            { label: "Project", value: "Book Cart Application" },
+            { label: "Project", value: "Bank Application" },
             { label: "Release", value: "1.2.3" },
             { label: "Cycle", value: "Smoke-1" }
         ],

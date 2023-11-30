@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        // ... existing options ...
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/helper/types/env.d.ts",
+        "src/helper/types/types.d.ts"
+    ]
+}
